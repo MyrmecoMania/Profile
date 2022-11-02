@@ -1,0 +1,93 @@
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+#face {
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: hsl(113, 88%, 50%);
+}
+
+body {
+  text-align: center;
+  color:hsl(113, 88%, 50%);
+  font-size: medium;
+  font-weight: 100;
+  font-family: sans-serif;
+  background-image: url("images/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gif {
+  border: 1px solid;
+  border-color: hsl(113, 88%, 50%);
+  position: relative;
+  border-radius: 10px;
+}
+
+.little-boxes {
+  margin: 20px auto;
+  padding: 25px 25px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: hsl(113, 88%, 50%);
+  box-shadow: 0 10px 30px #404258a0;
+  width: 500px
+}
+
+a {
+  padding: 5px;
+  background-color: aquamarine;
+  text-decoration: none;
+  border-radius: 15px
+}
+
+a:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+#first-box {
+  background-color: hsla(235, 16%, 30%, 0.6);
+}
+
+#second-box {
+  background-color: hsla(227, 19%, 34%, 0.4);
+}
+
+#third-box {
+  background-color: 0;
+  border: 0;
+  box-shadow: 0 0 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 450px auto;
+  }
+  .little-boxes {
+    width: 375 px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 360px auto;
+  }
+  .little-boxes {
+    width: 313px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 270px auto;
+  }
+  .little-boxes {
+    width: 227px auto;
+  }
+}
